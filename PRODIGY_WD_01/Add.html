@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <script>
+        function myfunct()
+        {
+            alert("Successfully submitted!!!");
+        }
+        function cancel()
+        {
+            alert(" Form Submission has been cancelled");
+        }
+    </script>
+    <body>
+        <div class="sidebar">
+            <a href="Home.html">Home</a>
+            <a href="Information.html">Information</a>
+            <a class="active" href="Add.html">To add informations</a>
+        </div>
+        <link rel="stylesheet" href="Style.css">
+        <div class="content">
+        <h2 style="align-content: center;"> Informations to be added - QUERY </h2>
+        <p>The query submitted will be taken into action. The contents may be changed in the later development of the webpage. The query can contain informations to be added, changes to be made or even suggestions for upliftment of the content.</p>
+        <form class="fact">
+            <label for="name"><b>Your Name: </b></label>
+            <input id="name" type="text"/><br>
+            <label for="info"><b>Content to be added: </b></label>
+            <input id="info" type="text">
+            <br><br><br>
+            <button type="submit" onclick=myfunct()>SUBMIT</button>
+            <button onclick=cancel()>CANCEL</button>
+        </form>
+        <br>
+        <br>
+        <br>
+        <h3>CONTACT DETAILS:</h3>
+        <p><b>PHONE NUMBER: </b> 12345 67890</p>
+        <p><b>EMAIL: </b>flowers@gmail.com</p>
+        <p><b>WEBSITE: </b>www.flowers.com</p>
+        </div>
+    </body>
+</html>
